@@ -1,0 +1,9 @@
+.contry-wrapper{
+    margin-left: auto;
+    margin-right: auto;
+}
+.contry-wrapper .capital{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+}
