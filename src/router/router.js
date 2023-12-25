@@ -6,9 +6,7 @@ import CountryPage from "../pages/countryPage/CountryPage";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <HomePage/> ,
-    
-    
+    element: <HomePage/> ,  
   },
   {
     path :'/countryPage',
@@ -17,8 +15,7 @@ const router = createBrowserRouter([
       {
       path :'/countryPage/:name'
       }
-  ]
-    
+  ] 
   }
 ]);
 export {router}
